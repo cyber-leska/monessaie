@@ -1,0 +1,29 @@
+<div class='lesforms'>
+    <h1 class='connexion'>connexion</h1>
+    <form>
+        <div class='connect'>
+            <div class=" champs">
+                <p>addresse mail :</p><input type="mail" class='incnx'>
+            </div>
+            <div class=" champs">
+                <p>mot de passe</p>:<input type='password' class='incnx'>
+            </div>
+        </div>
+    </form>
+    <div class=btncnx>
+        <button type="submit" class='connectb'>connexion</button>
+        <button class='inscription' id='elins'>inscription</button>
+    </div>
+
+</div>
+<script>
+$("#elins").on('click', function () {
+
+    $('.corps').empty()
+    
+    $.get('incription.html', function (mars) {
+        $('.corps').html(mars);
+    })
+
+})
+</script>

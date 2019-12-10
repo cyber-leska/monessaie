@@ -1,0 +1,279 @@
+html, body{
+
+width:100%;
+}
+.navibar{
+    display:flex;
+    flex-direction: row;
+width:100%;
+background:blueviolet
+}
+.navibar .menu{
+display:flex;
+flex-direction: row;
+width: 100%;
+height: auto;
+margin-left: 45%;
+
+}
+.botn {
+    display:block;
+    font-size: 22px;
+    list-style: none;
+    margin:14px;
+    margin-top:14px;
+
+   
+}
+.botn:hover{
+  text-decoration: underline;
+}
+.pP{
+  width: 56px;
+  height:auto
+}
+.profilspers{
+  display: flex;
+  flex-direction: row;
+  margin-top:16px;
+  border:2px solid black;
+  width:25%;
+  height:152px;
+  margin-left: 16px;
+  margin-right:3px
+  
+  
+}
+.appel{
+  font-size: 41px;
+  margin-left: 58px;
+  margin-top:14px
+}
+.profils1{
+  display: flex;
+  flex-direction: row;
+}
+.lesProfils{
+  display:flex;
+  flex-direction:column;
+}
+.profils2{
+  display: flex;
+  flex-direction: row;
+}
+.profils3{
+  display: flex;
+  flex-direction: row;
+}
+.profils4{
+  display: flex;
+  flex-direction: row;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding:10px;
+  
+}
+.inctc{
+  width:196px;
+  height: 31px;
+  margin:4px
+}
+.email{
+ margin-left: -67px;
+  padding-top:14px
+  
+}
+.mail{
+  border-radius: 8px;
+  border:2px solid black;
+}
+.sjt{
+  
+  padding-top:14px
+  
+}
+.sujet{
+  margin-left:9px
+}
+textarea{
+  width:500px;
+  height: 250px;
+
+  
+}
+.ttc{
+  text-align: center;
+}
+.msg{
+flex-direction: column;
+margin-top:14px;
+
+}
+.np{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nom{
+  flex-direction: column;
+  margin-left:54px
+}
+.contect{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.connexion{
+  text-align: center;
+}
+.champs{
+  display: flex;
+  flex-direction: row;
+  
+}
+.incnx{
+  width: 400px;
+  height:26px;
+  margin-left:8px;
+  margin-top:19px
+
+  
+}
+.connect{
+  margin-top: 100px;
+  margin-left: 35px;
+  font-size:38px
+
+}
+.btncnx{
+  display:flex;
+  flex-direction: column;
+ 
+  
+}
+button{
+  background: transparent;
+  border:none
+}
+.connectb{
+color:red
+}
+.inscription{
+color:blue
+}
+.inscri{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding:10px;
+}
+.inrue{
+width:45%
+}
+.vil{
+  margin-left: 47px;
+}
+.ccp{
+  width:135px
+}
+.invil{
+width:280px
+}
+.emnumber{
+  display:flex;
+  flex-direction:row;
+
+}
+.num{
+  padding-left:115px;
+ 
+}
+.numero{
+  border:2px solid black;
+  border-radius:8px
+}
+.mdp{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  margin-top:15px;
+  margin-left:25%
+
+}
+.cfmdp{
+  display: flex;
+  flex-direction:row;
+
+}
+.md2p{
+  width:434px;
+  height:26px
+}
+#md3p{
+  margin-left:74px
+}
+.lesforms{
+  background: rgb(65, 65, 243);
+}
+.valider{
+  background: transparent;
+border:none
+ 
+}
+.phto{
+  width: 145px;
+  height:auto;
+  
+
+}
+.profilPerso{
+  display:flex;
+  flex-direction: column;
+  margin-top:83px;
+  width:100%;
+  
+  height: 960px;
+  border:2px solid black
+}
+.cv{
+  background:linear-gradient(blueviolet,blue) ;
+  
+ 
+}
+.inprofilPerso{
+  margin-left: 45%;
+  
+}
+.contacteer{
+  background:linear-gradient(blueviolet,blue);
+
+}
+th{
+  margin-left:32px;
+  width: 35%;
+}
+thead{
+  border:1px solid black
+
+}
+tbody{
+  width:100%
+}
+td{
+  border:1px solid black;
+height:auto;
+width: 25% !important;
+}
+.tableaucv{
+  height:165px;
+  width:100%;
+ 
+
+}
+.npth{
+display:flex;
+flex-direction: column;
+}

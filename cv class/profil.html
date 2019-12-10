@@ -1,0 +1,139 @@
+<div class=lesProfils>
+    <div class='profils1'>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+    </div>
+    <div class='profils2'>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+    </div>
+    <div class='profils3'>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+    </div>
+    <div class='profils4'>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+        <div class='profilspers'>
+            <img src='img/index.png' class='pP'>
+            <div class='appel'>
+                <p>nom</p>
+                <p>prenom</p>
+            </div>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+<script>
+$(".profilspers").on('click', function () {
+    $('.corps').empty()
+
+    $.get('profilPerso.html', function (mars) {
+        $('.corps').html(mars);
+
+
+    });
+});
+
+</script>
